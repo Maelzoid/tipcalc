@@ -1,0 +1,34 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    text-align: left;
+    font-weight: normal;
+    font-size: 14pt;
+    color: #404040;
+    line-height: 170%;
+}
+
+
+.receipt{
+    display:block;
+    padding:50px;
+    width: 400px;
+    height: 800px;
+    background-image: url(./images/receipt.png);
+
+}
+
+.result{
+    padding-top:40px;
+    
+}
+
+#total{
+    height:40px;
+    font-size: medium;
+}
+
+
+#people{
+    height:40px;
+    font-size: medium;
+}

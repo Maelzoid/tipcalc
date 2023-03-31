@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="javascript.js"></script>
+    <title>Tip calculator</title>
+    
+</head>
+<body>
+    <h1>Tip calculator version 1.0</h1>
+
+    <div class="receipt">
+
+    <label for="total">Enter the total amount of the bill: </label>
+    <input type="number" name="total" id="total">
+  
+    <br>
+    <label for="people">How many people at the table? </label>
+    <input type="number" name="people" id="people">
+   
+    <p>How much tip would you like to add? </p>
+    
+    <input type="radio" name="tip" id="5" value="1.05">5%<br>
+    <input type="radio" name="tip" id="10" value="1.1">10%<br>
+    <input type="radio" name="tip" id="15" value="1.15">15%<br>
+    <input type="radio" name="tip" id="20" value="1.2">20%<br>
+    <br>
+    <button id="calc">Calculate tip</button>
+    <br>
+    <br>
+    <div id="result"> </div>
+    <br>
+    <br>
+    <button id="clear">Clear</button>
+
+    </div>
+
+</body>
+</html>
